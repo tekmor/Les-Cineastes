@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.MJCPrevert.lescinastes2.app.Affiche">
+
+<!-- Donne les parametre pour le l'image zoomable -->
+    <com.MJCPrevert.lescinastes2.app.util.ZoomableImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imgAff"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

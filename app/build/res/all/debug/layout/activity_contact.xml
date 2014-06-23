@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    tools:context="com.lescineastes.app.contacts">
+
+<!-- Donne les parametre pour le texte -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10.5dp"
+        android:text="Contact"
+        android:textColor="#6d8d3b"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtCon"
+        android:gravity="center_horizontal|center_vertical"/>
+
+<!-- Donne les parametre pour le bouton twitter -->
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/imgBtnTwi"
+        android:src="@drawable/twitter_icon"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/txtCon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+<!-- Donne les parametre pour le bouton facebook -->
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/imgBtnFac"
+        android:src="@drawable/facebook_icon"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/imgBtnTwi"
+        android:layout_alignLeft="@+id/imgBtnSite"
+        android:layout_alignStart="@+id/imgBtnSite" />
+
+<!-- Donne les parametre pour le bouton internet -->
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/imgBtnSite"
+        android:src="@drawable/internet"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/txtCon" />
+
+<!-- Donne les parametre pour le bouton mail -->
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/imgBtnMail"
+        android:src="@drawable/mailbox"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Donne les parametre pour le bouton telephone" -->
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/imgBtnTel"
+        android:src="@drawable/telicon"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/imgBtnSite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+
+</RelativeLayout>
+<!-- From: file:/Users/thomasdabre/Documents/LesCinastes2/app/src/main/res/layout/activity_contact.xml -->

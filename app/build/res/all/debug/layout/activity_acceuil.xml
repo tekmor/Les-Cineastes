@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    tools:context=".acceuil">
+
+<!-- Donne les parametre du logo -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/logo"
+        android:id="@+id/imgBan"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp" />
+
+<!-- Donne les parametre pour le bouton "à l'affiche" -->
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:text="À L'AFFICHE*"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btnAffiche"
+        android:background="@drawable/android_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+<!-- Donne les parametre pour le bouton "contact" -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btnContact"
+        android:background="@drawable/android_button"
+        android:layout_below="@+id/btnAffiche"
+        android:layout_alignLeft="@+id/btnAffiche"
+        android:layout_alignStart="@+id/btnAffiche"
+        android:layout_marginTop="80dp" />
+
+<!-- Donne les parametre pour le text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="* Nécessite une connexion internet"
+        android:id="@+id/textView"
+        android:textColor="@color/vert"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+<!-- From: file:/Users/thomasdabre/Documents/LesCinastes2/app/src/main/res/layout/activity_acceuil.xml -->
